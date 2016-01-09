@@ -1,0 +1,56 @@
+---
+layout: post
+title: 2015 Summary
+modified:
+categories: 
+excerpt: "To days to come, and all my love to long ago."
+tags: []
+image:
+  feature:
+date: 2016-01-09T18:07:21+08:00
+---
+
+> To days to come, and all my love to long ago. -- [Doctors](https://en.wikipedia.org/wiki/Time_Crash)
+
+
+It's never late to do a summary, as long as I do it.
+
+Year 2015 is just another year that flew away, in phrases... --
+
+  * Grandma's sick and death,
+  * a special girl's marriage,
+  * a sudden love of Ukulele,
+  * a lonely birthday,
+  * two farewells to two colleagues (and a third days ago, and a fourth upcoming from me), 
+  * a series of Coursera courses that squeezed out all my spare time,
+  * a still-young colleague's cancer (and a fear of having cancer thereafter (causing me coughing for two months)),
+  * two weddings bringing sorrow of being single,
+  * an idea of data mining application in EDA software testing (and a real implementation of it),
+  * a first experience of mentoring another,
+  * a interest towards GPU, graphics, and numerical methods,
+  * a determination of life changing,
+  * a recall to fundamental courses,
+  * and an ever-growing single figure (and obesity...).
+
+<br>
+So... New year resolution?
+
+I wish to learn more about parallel programming, firstly. And a new job hopefully.
+
+Being single is still a problem. I wish to solve this particular problem soon. But this is more about luck, isn't it? (provided my status no longer being a student...) :grin:
+
+Health now comes into my mind. Losing grandma made me sad, but it was aging. Losing a colleague made me afraid, because he is still very young and has a kid.
+Working for three years has made my figure totally unhealthy in shape. Moving to a new place might be able to setup a new beginning of exercising.
+
+I haven't lost my determination to excel, since the time I watched [Dead Poet Society](https://en.wikipedia.org/wiki/Dead_Poets_Society).
+
+
+So, keep moving...
+
+<br>
+Cheers,<br>
+Jiacheng
+
+
+
+
