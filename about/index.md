@@ -67,6 +67,19 @@ February 2013 - Present
         * STAR Award (2015)
         * Excellent Mentor Award (2016)
 
+August 2015 - October 2015
+: **[Data Mining Capstone on Coursera](https://www.coursera.org/course/dataminingcapstone)**
+    
+    * Worked on a series of tasks analyzing Yelp data
+        * Explored and visualized the topics of review contents
+        * Mined cuisine types and their similarities
+        * Mined dish names from the review contents
+        * Explored popular dishes of specified cuisine
+        * Predicted the hygiene condition of a restaurant
+        * Developed a recommending procedure to recommend restaurant with respect to specified dish, based on dish popularity and hygiene condition
+        * Explored what factors are mostly cared by customers as advices to restaurant holders
+    * Course report and codes are available in [Github Repository](https://github.com/jiachengpan/dataminingcapstone)
+
 
 May 2011 - June 2013
 : **[ASIC State Key Laboratory, Fudan University](http://sme.fudan.edu.cn/)** *Undergraduate Student*
