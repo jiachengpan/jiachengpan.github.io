@@ -118,4 +118,15 @@ Accomplishments
     * [Computer Architecture](https://www.coursera.org/course/comparch)
     * [Compilers](https://www.coursera.org/course/compilers)
 
+* Awards received in Synopsys
+    * STAR Award (2015) (to those who filed top-most valid bugs)
+    * Excellent Mentor Award (2016) (to best mentors of intern projects)
+
+* Awards received in Fudan
+    * Scholarship for Excellent Students of Fudan University, Third Prize (2012)
+    * People's Scholarship of Fudan University, Third Prize (2011)
+    * Outstanding Student of Fudan University (2011)
+    * People's Scholarship of Fudan University, Third Prize (2010)
+    * National Scholarship for Encouragement (2010)
+
 
