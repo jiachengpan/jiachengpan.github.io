@@ -25,9 +25,9 @@ Year 2015 is just another year that flew away, in phrases... --
   * a series of Coursera courses that squeezed out all my spare time,
   * a still-young colleague's cancer (and a fear of having cancer thereafter (causing me coughing for two months)),
   * two weddings bringing sorrow of being single,
-  * an idea of data mining application in EDA software testing (and a real implementation of it),
+  * an idea of data mining application in EDA software testing (and a real implementation of it, gaining even more burden of work:dizzy_face:),
   * a first experience of mentoring another,
-  * a interest towards GPU, graphics, and numerical methods,
+  * an interest towards GPU, graphics, and numerical methods,
   * a determination of life changing,
   * a recall to fundamental courses,
   * and an ever-growing single figure (and obesity...).
