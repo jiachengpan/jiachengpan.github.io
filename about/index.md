@@ -75,7 +75,7 @@ May 2011 - June 2013
     * Developed a light-weight OS running on FPGA for abstracting, scheduling and allocation of reconfigurable computing resources;
         * *[Xilinx](http://www.xilinx.com)* Vertex-4 FPGA, OS developed based on *xilkernel*;
         * Essentially abstracted multiple reconfigurable resources into hardware threads, callable by *pthreads* interfaces;
-        * Finalized as my undergraduage thesis, **graded A**;
+        * Finalized as my undergraduate thesis, **graded A**;
     * Developed a fault injection simulator for *FDP*, a lab-proprietized FPGA, using *Matlab Simulink*;
     * Developed a FPGA viewer, for *FDP*, using C++ and Qt;
         * Capable of visualizing FPGA resource utilization;
