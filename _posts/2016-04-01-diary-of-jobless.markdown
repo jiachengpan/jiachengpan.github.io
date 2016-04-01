@@ -3,8 +3,8 @@ layout: post
 title: Diary of Jobless
 modified:
 categories: 
-excerpt:
-tags: []
+excerpt: 失业n天的记录
+tags: [diary]
 image:
   feature:
 date: 2016-04-01T10:27:52+08:00
