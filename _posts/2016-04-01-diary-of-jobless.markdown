@@ -54,3 +54,18 @@ TwT
 
 今天的我，似乎已经不会再为离职而流泪了。这是好事。我应该能集中精力coding并找工作了吧。
 
+---------
+
+##### Day III, 3rd. April
+
+GAE-Cralwer
+
+休息一天，写了一个不费脑力但又略有用处的东西：[GAE-Crawler](https://github.com/jiachengpan/gae-crawler)
+主要就是一个cronjob，定时crawl东西，一方面可以是一个crawler，另一方面可以及时通知我讯息。
+
+比如。。最近想入surface pro，于是特别关注相关的优惠。。。
+
+又比如。。租房是个问题，这个或许可以成为一个小站的start point？（我固然知道已经有类似的了，例如zuber，但总觉的缺点什么。。（比如推送最新符合要求的讯息。。
+
+Anyway，极其放松的一天。明天看外婆，扫完墓后继续fight！！
+
