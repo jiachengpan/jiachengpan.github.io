@@ -54,7 +54,7 @@ TwT
 
 今天的我，似乎已经不会再为离职而流泪了。这是好事。我应该能集中精力coding并找工作了吧。
 
----------
+----------
 
 ##### Day III, 3rd. April
 
@@ -68,4 +68,26 @@ GAE-Cralwer
 又比如。。租房是个问题，这个或许可以成为一个小站的start point？（我固然知道已经有类似的了，例如zuber，但总觉的缺点什么。。（比如推送最新符合要求的讯息。。
 
 Anyway，极其放松的一天。明天看外婆，扫完墓后继续fight！！
+
+----------
+
+##### Day IV, 4th. April
+
+扫墓。
+
+第二次到外婆的墓前。母亲依旧很伤心。锡箔烧了好久。
+
+堵车。回到家已经将近4点。
+
+稍微仔细地看了几份cmu15418在2015spring学期的project final write up，决定在下周尝试实现两个在GPU上：
+* parallel minimum spanning tree
+* TSP / ant colony optimization
+
+之前费了好久（一周？）实现了GPU Gems里的并行betweenness算法。。或许有理由说工作忙。如今便没有理由了。
+
+逛github，看到trending里有个[acm cheat sheet](https://github.com/soulmachine/acm-cheat-sheet)。拿过来看了下，蛮不错的，可以系统复习下算法了，虽然leetcode medium 和 hard尚未刷完。。。
+
+另，逛知乎时发现操作系统的知识有些生疏了。。要补补。
+
+就是这样。今天开始早睡早起。
 
