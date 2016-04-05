@@ -17,12 +17,13 @@ My name is Jiacheng Pan(潘佳诚).
 I love solving problems, learning languages, and learning new ideas.
 <br><br>
 
-Currently I am an R&D engineer in Synopsys, focusing on testing CTS-related functions in IC Compiler II.
+I was an R&D engineer in Synopsys, focusing on testing CTS-related functions in IC Compiler II.
+I have just now resigned and am actively looking for a more intellectually challenging job.
 
 Some of my pet projects are uploaded as [Github repositories](http://github.com/jiachengpan).
 <br><br>
 
-Following are some details about me. Welcome to reach me by commenting below!
+Following are some details about me. Welcome to shoot me a mail or commenting below!
 
 <br>
 Cheers, <br>
@@ -43,24 +44,24 @@ Skills
 **Proficient with** | Tcl, Python, C/C++
                     | ASIC physical design, timing analysis
 **Familiar with**   | javascript, SQL, Qt
-                    | FPGA application, CUDA programming, data mining techniques
+                    | CUDA programming, FPGA application, data mining techniques
 **Knowledge**       | Hadoop, Spark
                     | German, Sanskrit
 
 Experience
 ----------
-February 2013 - Present
+February 2013 - April 2016
 : **[Synopsys, Inc.](http://synopsys.com)** *R&D Engineer*
 
     * Focus on software black-box testing and testing automation,
     on **CTS**-related (Clock Tree Synthesis) functionalities of *[IC Compiler II](https://www.synopsys.com/Tools/Implementation/PhysicalImplementation/Pages/ICCompilerII.aspx)*, the next-generation P&R tool;
-    * Test basic and advanced features of **CTS** and **CCD** (Concurrent Clock-Data optimization);
+    * Test features of **CTS** and **CCD** (Concurrent Clock-Data optimization);
         * Plan test scenarios, setup test suites, analyse QoR (Quality of Result) (including clock skew, timing slack, clock routing topology, floorplan, etc.), classify outliers and failures, and report bugs;
     * Maintain test regressions and regular QoR monitoring;
         * Own ~1k regression cases, 2 QoR-monitoring suites;
-    * Develop testing harnesses, design searcher, case builder, and test data analyzer;
-        * Initiated and own ~10k lines of CTS testing harnesses used among CTS team and other teams as well;
-        * Initiated the development of a test data analyser using data mining techniques;
+    * Test tool development;
+        * Initiated and own ~10k lines of CTS testing harnesses used among CTS team and other teams, by local (Shanghai) and remote RnDs;
+        * Developed a test data analyser using data mining techniques;
     * Mentored summer-intern and new hirer of CTS team;
     * Active participant and lecturer of an internal Python study group.
     * Awarded:
