@@ -21,8 +21,10 @@ I was an R&D engineer in Synopsys, focusing on testing CTS-related functions in 
 I have just now resigned and am actively looking for a more intellectually challenging job.
 
 My recent interests are:
+<p></p>
 * parallel computing, in particular, using CUDA
 * EDA algorithms
+
 
 Some of my pet projects are uploaded as [Github repositories](http://github.com/jiachengpan).
 <br><br>
