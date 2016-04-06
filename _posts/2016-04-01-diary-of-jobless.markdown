@@ -80,6 +80,7 @@ Anyway，极其放松的一天。明天看外婆，扫完墓后继续fight！！
 堵车。回到家已经将近4点。
 
 稍微仔细地看了几份cmu15418在2015spring学期的project final write up，决定在下周尝试实现两个在GPU上：
+
 * parallel minimum spanning tree
 * TSP / ant colony optimization
 
@@ -90,4 +91,48 @@ Anyway，极其放松的一天。明天看外婆，扫完墓后继续fight！！
 另，逛知乎时发现操作系统的知识有些生疏了。。要补补。
 
 就是这样。今天开始早睡早起。
+
+----------
+
+##### Day V, 5th. April
+
+Mother's birthday. Happy birthday to her!!
+
+Well, revisited KMP algorithm. I have to say that Professor Sedgewick's book is really fascinating! The elegant DFA approach is much cleaner than the "next" array approach, IMO.
+
+AND!!! I just realised that fduwireless can access Google (and other blocked sites by [GFW](https://en.wikipedia.org/wiki/Great_Firewall)) quickly and freely!!
+Lucky FDUers!
+
+Also, starting to explore MST on GPU. I have decided to start with this [benchmark suite](http://www.cs.cmu.edu/~pbbs/benchmarks.html).
+
+---------
+
+##### Day VI, 6th, April
+
+MST and GAE.
+
+The serial implementation of MST in the [benchmark suite](http://www.cs.cmu.edu/~pbbs/benchmarks.html) is interesting:
+
+* the union-find is so compact: it implements the path compression, and it uses negative values to represent the root size, so that implements weighted union-find for balancing the tree.
+* it does a two-phase kruskal's algorithm -- after the first one which scans `min(4/3n, m)` edges, it takes a break to reduce the edges left so that only non-self ones remains. Then it does loop over the rest edges.
+
+After reading the "Fast Minimum Spanning Tree Computation" in the GPU Computing Gems, I realise that I need more exercises and readings to know how to apply data-parallelism techniques.
+
+I knew scan, split, segmented scan, etc. But I just could not think of such a nice way as the chapter does to parallelise the MST, even I now know Boruvka's algorithm.
+
+Well. More exercises. I need to implement this first.
+
+<br>
+However, I again spent quite much time on the GAE crawler... extracting address, rent price, and room condition information from the post descriptions on Douban Group.
+
+It is interesting, but not quite intellectually challenging. (yet still time consuming...
+
+However, while I did thought of using some text analytics techniques I learnt from Coursera, it turns out a naiive approach of using a dictionary of names of Shanghai roads is simple and efficient!
+Well, I will postpone the experiment which is "intellectually challenging"... (anyway, I dont think GAE can use sklearn...
+
+<br>
+Alright. That's all for today... I wish I can finish most of the MST problem tomorrow...
+
+I DO need to start sending my resume...
+
 
