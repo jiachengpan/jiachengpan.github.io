@@ -34,8 +34,11 @@
   </div>
   <div id="index">
     <h3><a href="{{ site.url}}/posts/">Recent Posts</a></h3>
-    {% assign posts_to_show = (site.posts | wherenot: "tags","hide") %}
-    {% for post in posts_to_show limit: 5 %}
+
+    {% for post in site.posts %}
+      {% if post.tags contains 'hide' %}{% continue %}{% endif %}
+      {% capture dummy %}{% increment count %}{% endcapture %}
+      {% if count > 5 %}{% break %}{% endif %}
     <article>
       {% if post.link %}
         <h2 class="link-post"><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a> <a href="{{ post.link }}" target="_blank" title="{{ post.title }}"><i class="fa fa-link"></i></a></h2>
