@@ -135,4 +135,27 @@ Alright. That's all for today... I wish I can finish most of the MST problem tom
 
 I DO need to start sending my resume...
 
+---------
+
+##### Day VII, 7th, April
+
+Thrust.
+
+Starting to implement MST using data parallelism. I was considering using thrust, which though I have known it for a long time, I havent really tried it in-depth.
+
+And not quite surprisingly, I was stucked... by a compiling error. 
+It turns out that I need to explicitly define the input type of a custom binaryOp functor, 
+when I was attempting to use it with `thrust::reduce_by_key` with values being of `zip_iterator<tuple<counting_iterator, device_vector<double>::iterator>>` ...
+i.e. the functor needs to be defined *without* something like `template<typename Tuple>`...
+
+Okey... I didn't dig deeper into it (but I may when I have a chance) 
+(and it confused me because when the values are of something like `zip_iterator<tuple<double, double>>`, the world is quiet and clear...)... 
+
+Continue the MST tomorrow...
+
+<br>
+BTW, more explorations are made using GAE backend instances. I have long been waiting for this chance...
+But it turns out that the function I added to my [GAE crawler](https://github.com/jiachengpan/gae-crawler) can just be served using frontend instances which saves a lot of running hours.
+Well then, I reverted it to using frontend...
+
 
