@@ -158,4 +158,22 @@ BTW, more explorations are made using GAE backend instances. I have long been wa
 But it turns out that the function I added to my [GAE crawler](https://github.com/jiachengpan/gae-crawler) can just be served using frontend instances which saves a lot of running hours.
 Well then, I reverted it to using frontend...
 
+----------
+
+##### Day VIII, 8th, April
+
+Bug.
+
+There is a bug in the random graph generator in the [benchmark suite](http://www.cs.cmu.edu/~pbbs/benchmarks.html), which claims to generate an undirected graph, but actually it is possible to: 1) generate duplicated edges; 2) generate loops if one take the edge list as one for a directed graph.
+
+Maybe this is the most worthwhile finding today...
+
+<br>
+
+Wechat, which I again attempted to play with to create a "public service account" so as to provide message pushing service, 
+again proved to be time-wasting since it doesnt provide enough permission for individuals to send messages actively, or even passively within 48 hours after user's action.
+
+I didnt realise this until I have setup the GAE app and got everything to work roughly!!
+
+I wont step into the time-wasting trap again. Wechat is nothing more than a chat app to me...
 
