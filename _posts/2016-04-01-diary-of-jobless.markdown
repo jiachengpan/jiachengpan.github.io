@@ -177,3 +177,26 @@ I didnt realise this until I have setup the GAE app and got everything to work r
 
 I wont step into the time-wasting trap again. Wechat is nothing more than a chat app to me...
 
+----------
+
+##### Day IX, 9th, April
+
+CodeJam.
+
+This is the third time I participate this interesting competition, which always reminds me that I need try harder with algorithms.
+
+As usual, the qualification round is relatively easy, and the solutions to the small problem are quite straight-forward:
+
+* countingSheep: simply check the occurred digits. For the small problem, it is ok to setup a hard-coded upper limit to determine if the starting number is looping and one cannot visit all 10 digits -- i.e. yielding "INSOMNIA".
+* pancakeRevenge: BFS can solve this -- in particluar the small problem. For the large one, errrrrr... I tried A* and got no luck... Not yet sure how to do it with DP if possible...
+* jamcoin: just play with prime numbers... For base10, one can actually brute-force the divisors of the 16-length number as the upper limit shall be no longer than 8-digits, which takes about 100MB space to store the pre-computed primes, I believe.
+However, when it comes to the large numbers, overflow is the major problem... I dropped it and went to lunch...
+* fractiles: errrr... super easy for small since `S == K` -- one can always check the first `S` tiles since that can always partition out the pattern without gold. For the large one, errrr... again, I think I need to continue my minimum spanning tree problem (I am qualified to the second round anyway... barely...)
+
+So, again, I can tell that I still need to try harder... I hope one day I can solve all these kinds of problems (the large ones) without any difficulties.
+
+*(this post will not be published until the end of the qualification round)*
+
+
+
+
