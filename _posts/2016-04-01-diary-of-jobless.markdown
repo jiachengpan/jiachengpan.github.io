@@ -198,5 +198,14 @@ So, again, I can tell that I still need to try harder... I hope one day I can so
 *(this post will not be published until the end of the qualification round)*
 
 
+----------
+
+##### Day X, 10th, April
+
+MST. Again.
+
+Finally... I have almostly completed the MST data parallelism. I am really behind the schedule. However, it is really both annoying and worthwhile to debug the *evitable* mistakes I made during writing parallel programmes and kernels.
+
+It's a little bit late today. I will need to finish the write-up tomorrow.
 
 
