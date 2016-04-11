@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Diary of Jobless
+title: Diary of April
 modified:
 categories: 
-excerpt: 失业n天的记录
-tags: [diary, hide]
+excerpt: Diary of the jobless (wish not entire) April
+tags: [diary]
 image:
   feature:
 date: 2016-04-01T10:27:52+08:00
@@ -208,4 +208,63 @@ Finally... I have almostly completed the MST data parallelism. I am really behin
 
 It's a little bit late today. I will need to finish the write-up tomorrow.
 
+
+----------
+
+##### Day XI, 11th, April
+
+Lessons.
+
+There are so many pitfalls when using thrust... Sometimes you just cannot imagine what the function will behave -- you need to read the documents thoroughly and do real experiments (and fall into the pitfalls so as to feel it...).
+
+I have got several good (Gosh!) experiences to remember here:
+
+##### reduce_by_key
+
+The one I used is like 
+
+    reduce_by_key(keys.begin(), keys.end(), values.begin(), 
+                  out_keys.begin(), out_values.begin(), 
+                  binary_predicate(), 
+                  binary_op())
+
+Looks nice, doesnt it? However, the `out_keys` **does not** correspond to the `out_values` as the input key-values.
+
+i.e. when your keys are like `(u, v)` pairs and you are customising the binary prediate so that only `u`'s are used; and when your binary_op is essentially a `minimum_op`:
+the `out_values` are nice, but their corresponding keys are missing -- the `out_keys` may contain something that does not correspond to the minimum value of the `values`.
+
+##### *still* reduce_by_key
+
+This time, I used something like:
+
+    reduce_by_key(kvs.begin(), kvs.end(), kvs.begin(),
+                  out_kvs.begin(), out_kvs.begin(),
+                  binary_predicate(), 
+                  binary_op())
+
+Well, I was too optimistic about thrust -- I shouldn't have assumed that it will "smartly" understand what my expectation is, which is I store both kv inside the same AOS, while using customised predicates and binop to do the segmentation and reduction.
+
+And it's wrong -- the `out_kvs` in the `out_keys` position may be stored *after* the `out_kvs` in the `out_values` position got stored -- 
+I was actually getting the result for `out_keys`, whose corresponding values are **not** reduced using my binary_op. And the real `out_kvs` for `out_values` which is what I want is overwritten!
+
+##### printing device_vector
+
+It is really very convenient to access device_vectors and print so as to debug, as long as the data type is primitive (e.g. int).
+
+When it comes to struct, it seems that I need to do something like `SOME_STRUCT tmp = vec[i]`,
+or (e.g. doing something like `cout << vec[i].something` rather than `cout << tmp.something`) I would get a really wierd value.
+
+I guess maybe compiler thinks that it is a `device_dereference`? 
+
+##### printf in kernel
+
+Maybe I am too addicted to Python, but I shouldn't have used something like `printf("%s", var);` where `var` is an int!!
+
+This is stupid...
+
+
+<br>
+And after verification, I notice that my MST isn't producing an MST with the smallest weight. Still debugging...
+
+Wish me good luck tomorrow...
 
