@@ -268,3 +268,46 @@ And after verification, I notice that my MST isn't producing an MST with the sma
 
 Wish me good luck tomorrow...
 
+----------
+
+##### Day XII, 12th, April
+
+Correct but Corrupt.
+
+My MST based on [this](http://dl.acm.org/citation.cfm?id=1572769.1572796&coll=ACM&dl=ACM&type=series&idx=SERIES304&part=series&WantType=Proceedings&title=GH) paper is finally implemented based on thrust correctly.
+
+However, it fails the competion with the serial implementation using Kruskal's algorithm, by ~5x. After using nvvp, I realised that I hit the memory wall.
+
+The `thrust::zip_iterator` is handy, but it shows that at least one of my kernels has high latency due to accessing tuple elements wrapped by `zip_iterator`.
+I am not yet sure so far if I could improve it by transforming the original two data arrays into one. Let me try after dinner.
+
+-----
+
+![quoting something to my delight](../images/posts/Screenshot_2016-04-12_19-11-07.png)
+
+<br>
+When reading [Fast and Memory-Efficient Minimum Spanning Tree on the GPU](http://www.par.univie.ac.at/publications/download/TR-11-1.pdf#page=13),
+I am content that I was implementing Boruvka's algorithm correctly following [Fast minimum spanning tree for large graphs on the GPU](http://dl.acm.org/citation.cfm?id=1572769.1572796&coll=ACM&dl=ACM&type=series&idx=SERIES304&part=series&WantType=Proceedings&title=GH),
+because I also hit similar (if not exactly the sam) problems: 1) I need 2x edge_size memory; 2) sort is heavily needed for each iteration / recursion.
+
+Of course, as I mentioned before dinner, I also suffered inefficient memory accessing problem, which is my fault T_T
+
+<br>
+I have further experimented. The most significant bottleneck is the `sort_by_key` call, which is highly bounded by memory. 
+I am not sure but maybe there are just too many things to be moved (structs of 12 bytes and 8-byte double).
+
+Experiments showed that smaller data elements present with better performance -- at least when I merged my AOS edges and array of weights with AOS edge+weight, the speed was degraded by half.
+
+I will do more standalone experiments to see if this is indeed due to data size, or if it is my inferior usage of fancy iterators...
+
+<br>
+Generally, it has been a fruitful day, though I have been greatly behind my schedule.
+
+However, feeling falling into pitfalls is just great, when I am interested in the path I am walking on, feeling that I can go further smoothly after all these.
+
+I wish I still have time to implement something that can be *seen* as something eye-catching in my resume, knowing that I have been resting for nearly two weeks.
+
+
+<br>
+BTW, it's been 9 years my father passed away, on the 12th of April. His figure shall always remain in my heart. And I wish I, as his only son, has never and will never let him down. Bless my mother and me.
+
