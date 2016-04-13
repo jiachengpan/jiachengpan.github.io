@@ -111,6 +111,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (= 2.5.3)
+  jekyll-gist
   jekyll-sitemap
   jemoji
   json (~> 1.8.2)
