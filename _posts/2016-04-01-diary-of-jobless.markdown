@@ -311,3 +311,14 @@ I wish I still have time to implement something that can be *seen* as something 
 <br>
 BTW, it's been 9 years my father passed away, on the 12th of April. His figure shall always remain in my heart. And I wish I, as his only son, has never and will never let him down. Bless my mother and me.
 
+
+----------
+
+##### Day XIII, 13th, April
+
+It's been a nice morning since I found out how to improve the performance of my MST in terms of the sorting block. (see [this](http://jiacheng.space/improving-cuda-thrust-sorting-array-of-structs/))
+
+However, I again falled into the swamp of bugs which I am still debugging now -- mistakes are made when using thrust, scattering / gathering in-place which is not supported, which makes the result **sometimes** correct and sometimes not...
+
+And there is still a small bug remaining, which I will certainly fix tomorrow and seek for further improvement potentials (the current occupancy / memory bandwidth is still dissatisfying...).
+
