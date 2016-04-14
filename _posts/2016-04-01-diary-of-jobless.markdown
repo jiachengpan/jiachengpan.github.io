@@ -322,3 +322,32 @@ However, I again falled into the swamp of bugs which I am still debugging now --
 
 And there is still a small bug remaining, which I will certainly fix tomorrow and seek for further improvement potentials (the current occupancy / memory bandwidth is still dissatisfying...).
 
+----------
+
+##### Day XIV, 14th, April
+
+Comparison.
+
+Until now which is eleven o'clock in the morning, I think I have achieved equivalent performance (if not better) as the author of [Fast minimum spanning tree for large graphs on the GPU](http://dl.acm.org/citation.cfm?id=1572769.1572796&coll=ACM&dl=ACM&type=series&idx=SERIES304&part=series&WantType=Proceedings&title=GH).
+In fact, according to the paper [Fast and Memory-Efficient Minimum Spanning Tree on the GPU](http://www.par.univie.ac.at/publications/download/TR-11-1.pdf#page=13),
+I achieved ~36.9ns/edge with input size being 10 million edges, (this counts each unique edge twice, but even if we count edges once (so the input is actually 5 million), the throughput is still 77.8ns/edge, which is still better than the author's figures...)
+whereas in [Fast and Memory-Efficient Minimum Spanning Tree on the GPU](http://www.par.univie.ac.at/publications/download/TR-11-1.pdf#page=13), author achieved ~130ns/edge with the same input.
+
+But I am not that happy -- compared with the serial implementation of Kruskal's algorithm with weight and path-compress union-find, I am still slow -- in the benchmark suite, the serial implementation achieved 29.5ns/edge performance.
+
+So I will need to take a deeper look at the latter paper to see if I can squeeze more performance out of the algorithm...
+
+(I was really depressed these days because in the first paper, author claimed that the speedup is ~40x compared to serial version. Gosh! I really dont know what serial verion they are comparing to... At least, my serial verion is faster than parallel version... And that made me down until today I realise that in terms of the figures, I am better...)
+
+-----
+
+OK. Experiments shows that my GPU implementation is a little bit worse than serial kruskal when handling random graph, but all better, especially for 2D grid graph, than serial kruskal by at most 2x.
+
+This probably shows that memory accessing pattern is important to GPU -- the 2D grid, I can imagine, is much more regular than a random one. Whereas serial implementations look to be less sensitive.
+
+-----
+
+I really think that GAE is a time-consuming pitfall. I again wasted the entire afternoon on a wechat robot, which is still under construction...
+
+I swear I will not touch it until I find a new job :angry:
+
