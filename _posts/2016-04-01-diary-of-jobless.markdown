@@ -351,3 +351,15 @@ I really think that GAE is a time-consuming pitfall. I again wasted the entire a
 
 I swear I will not touch it until I find a new job :angry:
 
+----------
+
+##### Day XV, 15th, April
+
+Cloth.
+
+OK. I have determined to change a course and implement a cloth simulator using CUDA and let the MST programme rest for a while (maybe 2 days?), reason being that I eagerly want to *see* something I have implemented :sunglasses:...
+
+-----
+
+The basic cloth simulation is interesting, and I am happy that I have successfully got openGL to work (for the first time :smile:), though there are still some bugs that make my cloth fly against the gravity and scatter...
+
