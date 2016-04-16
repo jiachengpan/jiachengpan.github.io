@@ -363,3 +363,22 @@ OK. I have determined to change a course and implement a cloth simulator using C
 
 The basic cloth simulation is interesting, and I am happy that I have successfully got openGL to work (for the first time :smile:), though there are still some bugs that make my cloth fly against the gravity and scatter...
 
+----------
+
+##### Day XVI, 16th, April
+
+Beautiful Cloth.
+
+Beautifully done (partially):
+
+{% include image.html url="/images/posts/Screenshot_2016-04-16_23-54-51.png" description="flag" %}
+{% include image.html url="/images/posts/Screenshot_2016-04-16_23-56-45.png" description="flat flag" %}
+{% include image.html url="/images/posts/Screenshot_2016-04-16_23-58-23.png" description="wind comes from below" %}
+{% include image.html url="/images/posts/Screenshot_2016-04-16_23-59-15.png" description="three-point fixed" %}
+
+Though the self collision part is a little bit weird and need further debugging, and object-collision part is left undone.
+
+I wish both of them can be completed tomorrow, and I will start implementing the CUDA version, which shan't be difficult (in fact, much simpler than MST) since I see really many parallelism potential opportunities...
+
+  
+
