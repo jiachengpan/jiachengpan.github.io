@@ -381,4 +381,22 @@ Though the self collision part is a little bit weird and need further debugging,
 I wish both of them can be completed tomorrow, and I will start implementing the CUDA version, which shan't be difficult (in fact, much simpler than MST) since I see really many parallelism potential opportunities...
 
   
+---------
+
+##### Day XVII, 17th, April
+
+Rest.
+
+I stayed at home for a rest today.
+
+Despite this, I continued my cloth simulator a little bit, expanding it with constraint post-processing so as to reduce the possibility that the cloth explode... 
+In fact, the method introduced by [this tutorial](http://cg.alexandra.dk/?p=147) is good enough. However, I still plan to implement [this famous paper](https://graphics.stanford.edu/papers/cloth-sig02/cloth.pdf), even though I really feel a little bit difficult when reading it... (No wonder... CG is really new to me...)
+
+And a few wrap-up works are done today, pretty relaxed.
+
+I think if things go well, I need to conclude this cloth simulation and embrace MST again, which looks much more interesting in terms of practising CUDA.
+
+17 days... I need to hurry.
+
+
 
