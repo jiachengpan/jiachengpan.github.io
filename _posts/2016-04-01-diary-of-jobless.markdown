@@ -399,4 +399,24 @@ I think if things go well, I need to conclude this cloth simulation and embrace 
 17 days... I need to hurry.
 
 
+----------
+
+##### Day XVIII, 18th, April
+
+DPK
+
+Data parallel Kruskal. 
+
+Implementing... And I found yet more bugs... Havent really reached the phase to check QoR, since I am still struggling with the correctness.
+
+But honestly, it is much easier to code since I am already very familiar with thrust, compared with previous experience.
+
+I think it will be feasible to finish it by tomorrow and finish some write-up as a summary.
+
+And I need to start sending my resume.
+
+
+BTW, cloth simulator is just so simple, while bounded by the network speed, I need to postpone it since I can hardly visually see my programme as I work remotely in classroom -- the link speed is way too low...
+
+
 
