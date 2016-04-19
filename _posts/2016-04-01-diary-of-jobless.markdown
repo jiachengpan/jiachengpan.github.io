@@ -419,4 +419,29 @@ And I need to start sending my resume.
 BTW, cloth simulator is just so simple, while bounded by the network speed, I need to postpone it since I can hardly visually see my programme as I work remotely in classroom -- the link speed is way too low...
 
 
+----------
+
+##### Day XIX, 19th, April
+
+MST project is done.
+
+I have finally implemented and verified DPK, which, to my delight, presents with 3x speedup compared to serial Kruskal's.
+
+I understand that this figure is not that big, compared to many other applications' speedup with GPU, even though, I am very content since this figure is very much close (if not better) to the experiments presented in the papers.
+
+The journey is tough, but meaningful.
+
+Data parallel primitives are really helpful, and it is very interesting to restruct the MST problem into another form that fits the data parallelism.
+Although there are quite many many pitfalls during the implementation, into which I falled tens of times, 
+and tens of hours are spent, I am happy since I haven't really debugged a tough programme for years using C++ :joy:
+
+Well, since this is done, I think I am ready to start hunting jobs, really.
+
+And now, leetcode will be my friend :triumph:
+
+
+-----
+
+BTW, I really feel frustrated writing data-parallel primitives when implementing DPK -- sometimes I need to maintain the temporary arrays myself as registers to ASM...
+Maybe I could find or implement something (interface?) that makes this much simpler (like spark?).
 
