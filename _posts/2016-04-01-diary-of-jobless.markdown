@@ -445,3 +445,13 @@ And now, leetcode will be my friend :triumph:
 BTW, I really feel frustrated writing data-parallel primitives when implementing DPK -- sometimes I need to maintain the temporary arrays myself as registers to ASM...
 Maybe I could find or implement something (interface?) that makes this much simpler (like spark?).
 
+
+----------
+
+##### Day XX, 20th, April
+
+CV.
+
+CV is updated. I am ready to fight.
+
+
