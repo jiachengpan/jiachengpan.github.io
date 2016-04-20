@@ -13,6 +13,8 @@ date: 2016-04-20T11:25:06+08:00
 Learning by doing.
 
 
+*(source code can be found [here](https://github.com/jiachengpan/cudaMST))*
+
 After getting trained by various CUDA / parallel computing courses and doing many toy assignments / projects with well-prepared code context, I have determined to dive a little bit deeper to practise my CUDA programming skills.
 
 Graph algorithms interests me most and MST looks to be very much simple to get started with.
