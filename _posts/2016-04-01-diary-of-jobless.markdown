@@ -454,4 +454,19 @@ CV.
 
 CV is updated. I am ready to fight.
 
+----------
+
+##### Day XXI, 21st, April
+
+Leetcode
+
+Reading papers about cloth collisions makes me headache :cry: (I am not into this field really after all :joy:)
+
+So I decided to play with Leetcode... and finished yet another several M problems. (the pass ratio is not good enough, I need more practising)
+
+Several former colleagues wished me good luck today, I wish I will.
+
+The Chinese version CV is also updated today, with a better font selected :sunglasses: I think it is much better (more beautiful in shape) than the one forged three years ago.
+
+I wish it will also help me to get several more interviews.
 
