@@ -470,3 +470,16 @@ The Chinese version CV is also updated today, with a better font selected :sungl
 
 I wish it will also help me to get several more interviews.
 
+----------
+
+##### Day XXII, 22nd, April
+
+Break
+
+I am not sure what I have done today, except reading the book *The Annotated STL Sources*...
+
+Maybe I was experimenting porting Pandas to GAE, but withdrew; playing with ricequant and writing a new strategy; considering building a back-testing platform of my own, but distracted by too many choices...
+
+OK. I need a break...
+
+
