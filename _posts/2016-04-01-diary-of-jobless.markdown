@@ -483,3 +483,32 @@ Maybe I was experimenting porting Pandas to GAE, but withdrew; playing with rice
 OK. I need a break...
 
 
+----------
+
+##### Day XXIV, 24th, April
+
+Geburtstag
+
+I was very much surprised that the Doodle today is birthday cake for me :smile:
+
+![cake](/images/posts/birthday-doodle.png)
+
+
+And for two days, I have been resting enough -- breaking my swearing that I would not touch GAE until I got a job, and finally made the project [wechat-rent](https://github.com/jiachengpan/wechat-rent) work.
+
+Basically if one want to make use of GAE freely, she needs to make full use of the memcache. Or, enjoy datastore operations hitting the quota limit!
+
+In that sense, this project is far from being made public on wechat -- once users started to subscribe, I can imagine either it is going to stop working due to the limit, or my billing account is going to explode...
+
+
+---
+
+As for the job hunting, I need to be cautious to each interview, though I find it really simple to answer many of the questions as I felt from the previous interviews merely for fun.
+
+Reading the book "The Annotated STL Sources", I realised that I am just not aware that I have known so much :smirk:
+
+So, be ready and be yourself.
+
+Cheers.
+
+
