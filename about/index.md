@@ -10,6 +10,8 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
+#### [PDF Resume](/about/jiacheng-pan.pdf)
+
 Hi!! :smile:
 
 My name is Jiacheng Pan(潘佳诚).
