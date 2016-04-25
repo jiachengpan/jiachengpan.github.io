@@ -23,6 +23,7 @@ I have just now resigned and am actively looking for a more intellectually chall
 My recent interests are:
 <p></p>
 * parallel computing, in particular, using CUDA
+* system programming
 * EDA algorithms
 
 
@@ -56,17 +57,18 @@ Skills
 
 Experience
 ----------
+
 February 2013 - April 2016
 : **[Synopsys, Inc.](http://synopsys.com)** *R&D Engineer*
 
-    * Focus on software black-box testing and testing automation,
+    * Focus on test automation development and software black-box testing
     on **CTS**-related (Clock Tree Synthesis) functionalities of *[IC Compiler II](https://www.synopsys.com/Tools/Implementation/PhysicalImplementation/Pages/ICCompilerII.aspx)*, the next-generation P&R tool;
     * Test features of **CTS** and **CCD** (Concurrent Clock-Data optimization);
         * Plan test scenarios, setup test suites, analyse QoR (Quality of Result) (including clock skew, timing slack, clock routing topology, floorplan, etc.), classify outliers and failures, and report bugs;
-    * Maintain test regressions and regular QoR monitoring;
-        * Own ~1k regression cases, 2 QoR-monitoring suites;
+    * Own / developed  ~1k regression cases, 2 QoR-monitoring suites;
     * Test tool development;
-        * Initiated and own ~10k lines of CTS testing harnesses used among CTS team and other teams, by local (Shanghai) and remote RnDs;
+        * Developed testing harnesses for CTS-related area;
+        * Developed a test design searching tool;
         * Developed a test data analyser using data mining techniques;
     * Mentored summer-intern and new hirer of CTS team;
     * Active participant and lecturer of an internal Python study group.
@@ -74,9 +76,41 @@ February 2013 - April 2016
         * STAR Award (2015)
         * Excellent Mentor Award (2016)
 
-August 2015 - October 2015
-: **[Data Mining Capstone on Coursera](https://www.coursera.org/course/dataminingcapstone)**
-    
+
+May 2011 - June 2013
+: **[ASIC State Key Laboratory, Fudan University](http://sme.fudan.edu.cn/)** *Undergraduate Student*
+
+    * Student participating in CAD research, focusing on **FPGA-based reconfigurable computing** and **FPGA tool-chain** development;
+    * Developed a light-weight OS running on FPGA for abstracting, scheduling and allocation of reconfigurable computing resources;
+        * *[Xilinx](http://www.xilinx.com)* Vertex-4 FPGA, OS developed based on *xilkernel*;
+        * Essentially abstracted multiple reconfigurable resources into hardware threads, callable by *pthreads* interfaces;
+        * My undergraduate thesis, **graded A**;
+    * Developed a fault injection simulator for *FDP*, a lab-proprietary FPGA, using *Matlab Simulink*;
+    * Developed a FPGA viewer, for *FDP*, using C++ and Qt;
+        * Capable of visualizing FPGA resource utilization;
+        * Capable of probing FPGA internal signals, using spare resources;
+    * Enhanced bitstream downloader for FDP tool-chain.
+
+
+June 2012 - September 2012
+: **[Fudan Microelectronics, Inc](http://www.fmsh.com/)** *Intern*
+  
+    * Investigated ECC (Error Correction Code) implementation approaches for NAND flash;
+    * Analyzed on-chip MCU ROM data using Perl.
+
+Personal Projects
+-----------------
+
+* [CUDA MST](https://github.com/jiachengpan/cudaMST)
+    * Implemented data-parallel Boruvka's and data-parallel Kruskal's algorithm based on 2 papers;
+    * Reproduced the performance of the papers and beat the [CMU benchmark suite](http://www.cs.cmu.edu/~pbbs/benchmarks.html) by more than 3x.
+    * [A blog post](http://jiacheng.space/cuda-mst/).
+
+* [CUDA Cloth Simulator](https://github.com/jiachengpan/clothSimulator)
+    * A simple cloth simulator based on spring-mass model and accelerated using CUDA, essentially implemented a lock-free data structure.
+    * Still on-going, adding collision (object-cloth and cloth-cloth) detection.
+
+* [Data Mining Capstone on Coursera](https://www.coursera.org/course/dataminingcapstone)
     * Worked on a series of tasks analyzing Yelp data
         * Explored and visualized the topics of review contents
         * Mined cuisine types and their similarities
@@ -87,28 +121,12 @@ August 2015 - October 2015
         * Explored what factors are mostly cared by customers as advices to restaurant holders
     * Course report and codes are available in [Github Repository](https://github.com/jiachengpan/dataminingcapstone)
 
+* [Cloud Computing Capstone](https://github.com/jiachengpan/cloudcapstone)
+    * Developed 2 sub-projects using Hadoop and Spark to analyse US flight data, on AWS EC2 clusters;
+    * Ranked airports and carriers by on-time-arrival performance, and searching for appropriate two-flight routes with specific temporal constraints.
 
-May 2011 - June 2013
-: **[ASIC State Key Laboratory, Fudan University](http://sme.fudan.edu.cn/)** *Undergraduate Student*
-
-    * Student participating in CAD research, focusing on **FPGA-based reconfigurable computing** and **FPGA tool-chain** development;
-    * Developed a light-weight OS running on FPGA for abstracting, scheduling and allocation of reconfigurable computing resources;
-        * *[Xilinx](http://www.xilinx.com)* Vertex-4 FPGA, OS developed based on *xilkernel*;
-        * Essentially abstracted multiple reconfigurable resources into hardware threads, callable by *pthreads* interfaces;
-        * Finalized as my undergraduate thesis, **graded A**;
-    * Developed a fault injection simulator for *FDP*, a lab-proprietized FPGA, using *Matlab Simulink*;
-    * Developed a FPGA viewer, for *FDP*, using C++ and Qt;
-        * Capable of visualizing FPGA resource utilization;
-        * Capable of probing FPGA internal signals, using spare resources;
-    * Enhanced bitstream downloader for FDP tool-chain.
-
-
-June 2012 - September 2012
-: **[Fudan Microelectronics, Inc](http://www.fmsh.com/)** *Intern*
-  
-    * Studied ECC (Error Correction Code) implementation for nand flash;
-    * Analyzed on-chip MCU ROM data using Perl.
-
+* [Social Network Analysis on Github Repositories](https://github.com/jiachengpan/sna)
+    * Analysed the user-repository bipartite graph, its relationship with the community of language used by repositories, and its evolution over time.
 
 Accomplishments
 ---------------
