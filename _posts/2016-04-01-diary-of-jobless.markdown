@@ -512,3 +512,20 @@ So, be ready and be yourself.
 Cheers.
 
 
+----------
+
+##### Day XXVI, 26th, April
+
+Leetcode, Leetcode, Leetcode...
+
+It's been interesting to work on those problems, though some of them really made my brain explode almostly...
+
+The most exciting moment is to know some approach in the forum that is so elegant, brief, and efficient, that one would really hope that she could though of such approach herself.
+
+Anyway, I may not be that great, and it would be just lucky if I could get AC within 10 minutes for a medium problem... (and that's one reason for myself to push me try harder hopefully...
+
+---
+
+Well, tomorrow morning will be filled with an interview with IQIYI. Good luck!
+
+
