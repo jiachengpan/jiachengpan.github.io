@@ -529,3 +529,19 @@ Anyway, I may not be that great, and it would be just lucky if I could get AC wi
 Well, tomorrow morning will be filled with an interview with IQIYI. Good luck!
 
 
+----------
+
+##### Day XXVII, 27th, April
+
+Tired.
+
+I am tired because IQIYI is located soooooooo far away and it is simply a waste of interviewee's time if the so-called interview is merely a "scan" lasting for slightly more than half an hour.
+Why not just phone me to save me 2 hours plus 0.5 hour waiting at your lobby?
+
+And I am really not accustomised to wearing suit... though I look really better than usual :smirk:
+
+
+Besides, just got 2 more potential interview opportunities. Get ready!!
+
+
+
