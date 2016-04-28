@@ -51,6 +51,27 @@ a {
 	}
 }
 
+.article-wrap {
+  p > a {
+    text-decoration: none;
+    color: $alink-color;
+    &:visited {
+      color: $alinkcolorvisited;
+    }
+    &:hover {
+      color: $alinkcolorhover;
+    }
+    &:focus {
+      outline: thin dotted;
+      color: $alinkcolorfocus;
+    }
+    &:hover,
+    &:active {
+      outline: 0;
+    }
+  }
+}
+
 /*
    Figure captions
    ========================================================================== */
