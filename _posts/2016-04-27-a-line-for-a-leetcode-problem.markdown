@@ -53,6 +53,9 @@ Sort and `stl::next_permutation` can do the trick
 #### 58. Length of Last Word 
 Loop, note the space indice, note the non-space right bound, and get the difference between these two indices.
 
+#### 61. Rotate List
+Find the length, find where to disconnect, connect the first segment to the tail. (note if k >= length, we need to mod it)
+
 #### 67. Add Binary
 Simple... loop over and maintain a carry
 
@@ -61,6 +64,15 @@ Simple... loop over and maintain a carry
 
 #### 75. Sort Colors
 Partition (see *Algorithms*); or bucket / radix sort.
+
+#### 79. Word Search
+Recursive DFS. Better to reuse `board` to keep track of visited grid -- it's simpler.
+
+#### 80. Remove Duplicates from Sorted Array II
+Two pointers with `prev` and `first` -- one more predicate than duplicate I.
+
+#### 86. Partition List
+Advance pointer to the first guy that is >= x, record it, and when further advancing the earlier pointer, move the node to the position before the recorded position if the node is < x.
 
 #### 89. Gray Code
 The next 2^i gray codes are essentially the same reverse-ordered generated 2^i code sequence with each of them setting their next-highest bit.
@@ -88,6 +100,9 @@ Mask, shift, and, or...
 
 #### 203. Remove Linked List Elements
 Simple... loop over and delete.
+
+#### 209. Minimum Size Subarray Sum
+Two pointers, shrink the subarray when sum matches the requirement.
 
 #### 222. Count Complete Tree Nodes
 When left-most level == right-most level, return 2^level-1, otherwise, recursively count the left subtree and right subtree.
