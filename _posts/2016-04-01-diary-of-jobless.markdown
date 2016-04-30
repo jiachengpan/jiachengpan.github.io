@@ -544,4 +544,65 @@ And I am really not accustomised to wearing suit... though I look really better 
 Besides, just got 2 more potential interview opportunities. Get ready!!
 
 
+----------
+
+##### Day XXX, 30th, April
+
+Summary of April.
+
+Time flies. I thought it would be yet afar but now it just comes.
+
+Sadly I remain unemployed still, which is very much behind my plan. However, I think this jobless April makes me think and learn, and feel the life I have longed for three years after I started to work.
+
+---
+
+Think and learn.
+
+I was usually overwhelmed by work, and some unimportant hobbies and affairs when I was employed, therefore hardly had got time to think deeply and dig deeply into something I showed interest.
+
+I tried to take courses, listen lecture records, do course projects, do peer reviews, etc., wishing to touch a little bit deeper into some field that I was not into when I was in college.
+I achieved my goal in general, and really felt that it was important to do a mocking project to really apply the knowledge learnt.
+
+Two similar series of courses offered by UIUC. For the data mining, I really embraced it and carefully accomplished the projects. I learnt, and I remember. 
+For the cloud computing capstone, on the contrast, I hardly did the projects as carefully as the data mining capstone, and the consequence is that I feel hollow when looking back at the scripts, codes I ever wrote, and the principles of the frameworks I ever used.
+
+I know, that one cannot expect more that what she sacrificed.
+
+And in April, I wish to re-gain the feeling of learning the data mining specialisation, while trying to soliden my knowledge in CUDA and parallel computing.
+I did 2 small projects, deeply used thrust, reproduced 2 papers, read even more, and so on.
+
+This not only prettified my CV, but also really impressed me with the parallel computing knowledge.
+And most importantly, pushed me to feel as if I am doing the job I claimed to be pursuing -- parallel computing. Do I really want to do it for the next coming years?
+
+Frankly, when hit memory walls and faced with bugs, I thought of giving up as usual. But I exclaimed, how could I be so weak that not even be able to pursue something you liked?
+I have made inferior decisions before due to the lack of strong nerve. I cannot let it happen again, at least not now.
+
+Then I continued, and I really cannot forget the feeling of delight when my programme just walked through and reproduced the performace claimed in the papers.
+
+I succeeded.
+
+And that should be one of the most fruitful experience gained during this jobless month.
+
+---
+
+Feeling the leisure life.
+
+Leisure, I longed for it since I started to do the internship.
+
+But when I really am free in terms of employment status, I cannot be delight.
+I am still under pressure of unemployment and financial stress.
+
+Although I attempted to swipe the bad feeling intentionally, by doing personal projects and fill up my schedule, I cannot overlook them when I rest in bed and closed my eyes.
+
+Freedom of every aspect never exists.
+
+And now I can certainly be sure that filling myself into a social position, be it a job or a student, is essential to be free in some certain extent -- I do not need to consider the pressure of sustaining life which is one of the aspects I think important.
+
+(Or, maybe it is the feeling of depression after such a long time of being solitude socially, though I am not some extrovert person.)
+
+---
+
+*"out of a sudden", I realised that I have written so many mind-streaming bullshit...*
+
+But anyway, go on and try harder. Find a job and pursue the wished life. 
 
