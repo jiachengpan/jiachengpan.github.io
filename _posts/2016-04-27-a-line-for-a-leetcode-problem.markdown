@@ -22,6 +22,18 @@ Sort, loop and binary_search, and find the indices (nlogn + nlogn + n)
 #### 9. Palindrome Number
 Note the negative, use long to avoid overflow, just generate a reversed long and compare with the original
 
+#### 15. 3Sum
+Outer loop iterates the first guy of result triplets, inner loop tries to contract the left subarray so as to find the other two of the resulting triplets. Note to remove duplicates by skipping duplicate elements.
+
+#### 16. 3Sum Closest 
+Same as 15.
+
+#### 18. 4Sum
+Similar to 3Sum. Note that one can think of some way to do pruning. (e.g. skip when 3*MAX_OF_SUB_ARRAY < TARGET)
+
+#### 19. Remove Nth Node From End of List 
+Two pointers with n-offset.
+
 #### 27. Remove Element
 Fast and slow, loop, swap, and when hit the val-to-remove skip incrementing slow.
 
@@ -47,6 +59,9 @@ Just loop and call a "transform" function as per the question's requirement
 #### 39. Combination Sum
 DFS, maintaining a current pos in candidates, a current chosen list and current value, and the next chosen candidates being all candidates beyond pos if they are smaller than `(target-current_value)`.
 
+#### 40. Combination Sum II
+DFS, maintaining a start pos in candidates and a current chosen list, push result when current sum equals to target.
+
 #### 46. Permutations
 Sort and `stl::next_permutation` can do the trick
 
@@ -64,6 +79,9 @@ Simple... loop over and maintain a carry
 
 #### 75. Sort Colors
 Partition (see *Algorithms*); or bucket / radix sort.
+
+#### 77. Combinations 
+DFS, maintaining a current list and current start.
 
 #### 79. Word Search
 Recursive DFS. Better to reuse `board` to keep track of visited grid -- it's simpler.
@@ -85,6 +103,9 @@ A tree is symmetric if its left subtree is mirror of its right subtree, and left
 
 #### 134. Gas Station
 Contract neighbour net-costs (gas-cost) when both negative or first positive and sum positive, and move the last to first, and do again, until the length is 1 or 2, using the sign of the last element to determine if feasible to travel around.
+
+#### 142. Linked List Cycle II  
+Two pointers, fast and slow. Assume the start of circle is X steps away from the head, slow goes K steps after entering the circle and fast goes 2K+2X in total. We have `K%C = (2K+X)%C => (K+X)%C = 0`. i.e. when fast and slow hits, fast is X steps away from the entrance. So we just need to reset slow to head and increment both step by step.
 
 #### 143. Reorder List
 Two pointers to find the middle, reverse the tail, contract the head and tail until met.
