@@ -52,7 +52,7 @@ a {
 }
 
 .article-wrap {
-  p > a {
+  a {
     text-decoration: none;
     color: $alink-color;
     &:visited {
