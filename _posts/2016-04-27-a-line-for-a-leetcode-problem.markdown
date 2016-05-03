@@ -1,6 +1,6 @@
 ---
 layout: post
-title: A Line for a Leetcode Problem
+title: A Sentence for a Leetcode Problem
 modified:
 categories: 
 excerpt:
@@ -65,6 +65,9 @@ DFS, maintaining a start pos in candidates and a current chosen list, push resul
 #### 46. Permutations
 Sort and `stl::next_permutation` can do the trick
 
+#### 47. Permutations II
+`next_permutation` (make sure you know how to implement it yourself)
+
 #### 58. Length of Last Word 
 Loop, note the space indice, note the non-space right bound, and get the difference between these two indices.
 
@@ -95,11 +98,20 @@ Advance pointer to the first guy that is >= x, record it, and when further advan
 #### 89. Gray Code
 The next 2^i gray codes are essentially the same reverse-ordered generated 2^i code sequence with each of them setting their next-highest bit.
 
+#### 95. Unique Binary Search Trees II
+DP, storing $f(x)$, and $f(x+1) = (f_0(0) \times f_1(x)) + (f_0(1) \times f_2(x-1)) + ...$, where the subscript of $f()$ means that all the nodes of the trees represented by $f()$ need to increment their values by the subscript so as to meet the requirement of a BST.
+ 
 #### 96. Unique Binary Search Trees
 DP. using different number as the root, the count of BST of such configuration is the product of the configurations of left subtrees and the one of right subtrees.
 
 #### 101. Symmetric Tree
 A tree is symmetric if its left subtree is mirror of its right subtree, and left-left right-right, left-right right-left, recursively judged by a helper predicate function.
+
+#### 120. Triangle 
+DP using an array with size being the size of the last row of the triangle, following $min_paths(x) = min_path + min(x) for min_path in min_paths(x-1)$ where $min_paths()$ refers to the solution function and $min()$ refers to the minimum next-value of the two elements of the corresponding path.
+
+#### 131. Palindrome Partitioning 
+DFS / backtracking, with optional 2d array for storing substr-being-parlidrome predicate.
 
 #### 134. Gas Station
 Contract neighbour net-costs (gas-cost) when both negative or first positive and sum positive, and move the last to first, and do again, until the length is 1 or 2, using the sign of the last element to determine if feasible to travel around.
@@ -125,6 +137,12 @@ Simple... loop over and delete.
 #### 209. Minimum Size Subarray Sum
 Two pointers, shrink the subarray when sum matches the requirement.
 
+#### 211. Add and Search Word - Data structure design
+Trie and DFS (for '.' case). Don't forget to initialise pointers even if they are NULL!!
+
+#### 221. Maximal Square 
+DP. $f(x, y) = min(f(x-1, y-1), f(x, y-1), f(x-1, y)) + 1$ if $matrix(x, y)$ else $0$ where $f()$ represents the max width of square that can be formed using this point as bottom-right corner.
+
 #### 222. Count Complete Tree Nodes
 When left-most level == right-most level, return 2^level-1, otherwise, recursively count the left subtree and right subtree.
 
@@ -137,6 +155,13 @@ Binary search, same as 274 albeit the sorting order is ascending.
 #### 278. First Bad Version
 Binary search.
 
+#### 304. Range Sum Query 2D - Immutable
+Prefix sum. Or more daring: ["2d" prefix sum](https://leetcode.com/discuss/69424/clean-c-solution-and-explaination-o-mn-space-with-o-1-time)
+
 #### 319. Bulb Switcher
 Brainteaser... I cannot know the optimal solution unless reading [this](https://leetcode.com/discuss/91371/share-my-o-1-solution-with-explanation)
+
+#### 322. Coin Change
+DP. $f(x) = min(f(x-coin_i)+1)$ where $f()$ refer to the coin number. 
+<br>*TODO: Pruning need to be done so as to reduce the runtime?*
 
