@@ -31,3 +31,16 @@ But I need to be aware that eating too much rice isn't good for my health -- I n
 
 OK. Let the play begin.
 
+-----
+
+##### Day XXXIII, 3rd, May
+
+Practise and Review.
+
+More leetcode problems. I find myself more proficient in handling backtracking and DP problems -- it might be a good way to practise by tags :smile:
+
+And just started to read the book *advanced linux programming* to review relevant knowledge. Thought not very thick, this book illustrates many key points well.
+
+Another thing is that I reviewed some interview sharing in 1point3acres, for companies like NVIDIA and UBER... Well, I need to do better in lower-level knowledge... (and that's why I started to read the book aforementioned!!
+
+
