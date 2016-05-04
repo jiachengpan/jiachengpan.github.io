@@ -44,3 +44,20 @@ And just started to read the book *advanced linux programming* to review relevan
 Another thing is that I reviewed some interview sharing in 1point3acres, for companies like NVIDIA and UBER... Well, I need to do better in lower-level knowledge... (and that's why I started to read the book aforementioned!!
 
 
+-----
+
+##### Day XXXIV, 4th, May
+
+Youth.
+
+I wish I were still a youth, while according to the definition of the UN, 24 is the upperbound. Alas!!
+
+---
+
+Just finished the first section (5 chapters) of the *Advanced Linux Programming*. Really comprehensive. Looking forward to getting more out of it reading the following chapters.
+
+And leetcode-on -- today's topic is mostly Graph -- simple, when I know the approach, and elegant, when I know that the problem can be modeled as graph.
+Besides, I am also starting to do string problems, which is really a big chunk. I feel that string problems are mostly not difficult, but really tricky and challenges my carefulness.
+
+So it's been a few days without hearing any updates from my delivered resumes. Time to further fill the queue.
+

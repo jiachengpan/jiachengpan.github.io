@@ -77,6 +77,9 @@ Find the length, find where to disconnect, connect the first segment to the tail
 #### 67. Add Binary
 Simple... loop over and maintain a carry
 
+#### 71. Simplify Path
+Just split tokens using "/", and pop when hit "..". Note when the tokens (to pop) is empty and dont forget to push the last token even if there is no trailing "/".
+
 #### 74. Search a 2D Matrix
 `lower_bound`, `lower_bound`, note how to choose `mid` so that there would not be an infinite loop. (ceil or floor the mid)
 
@@ -98,6 +101,9 @@ Advance pointer to the first guy that is >= x, record it, and when further advan
 #### 89. Gray Code
 The next 2^i gray codes are essentially the same reverse-ordered generated 2^i code sequence with each of them setting their next-highest bit.
 
+#### 93. Restore IP Addresses
+DFS / backtracking. Note we dont allow 0-leaded number e.g. 01.01.01.01
+
 #### 95. Unique Binary Search Trees II
 DP, storing $f(x)$, and $f(x+1) = (f_0(0) \times f_1(x)) + (f_0(1) \times f_2(x-1)) + ...$, where the subscript of $f()$ means that all the nodes of the trees represented by $f()$ need to increment their values by the subscript so as to meet the requirement of a BST.
  
@@ -113,6 +119,9 @@ DP using an array with size being the size of the last row of the triangle, foll
 #### 131. Palindrome Partitioning 
 DFS / backtracking, with optional 2d array for storing substr-being-parlidrome predicate.
 
+#### 133. Clone Graph 
+DFS. Note how to handle when the node is already visited -- we still need to add the cloned node to the neighbours.
+
 #### 134. Gas Station
 Contract neighbour net-costs (gas-cost) when both negative or first positive and sum positive, and move the last to first, and do again, until the length is 1 or 2, using the sign of the last element to determine if feasible to travel around.
 
@@ -122,11 +131,17 @@ Two pointers, fast and slow. Assume the start of circle is X steps away from the
 #### 143. Reorder List
 Two pointers to find the middle, reverse the tail, contract the head and tail until met.
 
+#### 151. Reverse Words in a String
+Remove duplicate / trailing / leading spaces, reverse each word, and reverse the entire string.
+
 #### 153. Find Minimum in Rotated Sorted Array
 Binary search. Take care of a sorted sub-partition -- you may run into the maximum instead of the minimum...
 
 #### 155. Min Stack
 Two stacks, one normal, one minstack.
+
+#### 172. Factorial Trailing Zeroes
+Count how many 5s... Note that 25 has two 5s, and 125 three 5s, and so on... ($\log_5n$)
 
 #### 190. Reverse Bits
 Mask, shift, and, or...
@@ -134,8 +149,15 @@ Mask, shift, and, or...
 #### 203. Remove Linked List Elements
 Simple... loop over and delete.
 
+#### 207. Course Schedule
+is_dag.
+<br> *the BFS way to detect cycles in [this post](https://leetcode.com/discuss/42543/18-22-lines-c-bfs-dfs-solutions) is interesting *
+
 #### 209. Minimum Size Subarray Sum
 Two pointers, shrink the subarray when sum matches the requirement.
+
+#### 210. Course Schedule II
+Topology sort. Refer to *Algorithms* by Robert Sedgewick.
 
 #### 211. Add and Search Word - Data structure design
 Trie and DFS (for '.' case). Don't forget to initialise pointers even if they are NULL!!
@@ -158,10 +180,17 @@ Binary search.
 #### 304. Range Sum Query 2D - Immutable
 Prefix sum. Or more daring: ["2d" prefix sum](https://leetcode.com/discuss/69424/clean-c-solution-and-explaination-o-mn-space-with-o-1-time)
 
+#### 310. Minimum Height Trees
+BFS, shrinking the graph from outer frontier where nodes only has one degree, updating the degrees as the frontier nodes are removed.
+
 #### 319. Bulb Switcher
 Brainteaser... I cannot know the optimal solution unless reading [this](https://leetcode.com/discuss/91371/share-my-o-1-solution-with-explanation)
 
 #### 322. Coin Change
 DP. $f(x) = min(f(x-coin_i)+1)$ where $f()$ refer to the coin number. 
 <br>*TODO: Pruning need to be done so as to reduce the runtime?*
+
+#### 332. Reconstruct Itinerary
+DFS, tracking edge count. [a better solution resembles topology sort](https://leetcode.com/discuss/85439/short-iterative-solution-explanation-recursive-backtracking)
+
 
