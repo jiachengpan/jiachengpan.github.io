@@ -61,3 +61,16 @@ Besides, I am also starting to do string problems, which is really a big chunk. 
 
 So it's been a few days without hearing any updates from my delivered resumes. Time to further fill the queue.
 
+-----
+
+##### Day XXXV, 5th, May
+
+Sent.
+
+Not very productive today in terms of code writing -- I put most effort on reviewing computer architecture.
+
+Finally I have made a decision to try Compute Architect. I am not sure I can get it, but at least I have made it clear to myself -- I am not going to yield to remain being a tester.
+I need to and will jump out of the comfort zone to embrace the world of challenging.
+
+And I am considering applying for even more positions of the companies that I was not that fond of. Lacking of interview responses makes me anxious.
+

@@ -71,6 +71,9 @@ Sort and `stl::next_permutation` can do the trick
 #### 58. Length of Last Word 
 Loop, note the space indice, note the non-space right bound, and get the difference between these two indices.
 
+#### 60. Permutation Sequence
+From left to right, each digit of the result can be determined by chosing the $floor(k / fac(n-i))$-th candidate digits where $i$ refer to $i$th digit, and after each step, the chosen digit shall be removed. The candidate digits are sorted ascendingly.
+
 #### 61. Rotate List
 Find the length, find where to disconnect, connect the first segment to the tail. (note if k >= length, we need to mod it)
 
@@ -161,6 +164,9 @@ Topology sort. Refer to *Algorithms* by Robert Sedgewick.
 
 #### 211. Add and Search Word - Data structure design
 Trie and DFS (for '.' case). Don't forget to initialise pointers even if they are NULL!!
+
+#### 216. Combination Sum III
+DFS / backtracking. Simple.
 
 #### 221. Maximal Square 
 DP. $f(x, y) = min(f(x-1, y-1), f(x, y-1), f(x-1, y)) + 1$ if $matrix(x, y)$ else $0$ where $f()$ represents the max width of square that can be formed using this point as bottom-right corner.
