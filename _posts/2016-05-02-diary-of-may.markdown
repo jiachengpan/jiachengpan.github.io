@@ -74,3 +74,28 @@ I need to and will jump out of the comfort zone to embrace the world of challeng
 
 And I am considering applying for even more positions of the companies that I was not that fond of. Lacking of interview responses makes me anxious.
 
+-----
+
+##### Day XXXVI, 6th, May
+
+Computer Architecture
+
+Continuing reviewing. Nothing special, except that I got a call from AMD and scheduled an interview next week while no further details were provided from their side.
+Not sure if there would be any update later... I understand that I may not be a good fit for verification as I did not have relevant experience. But I wish to have a try anyway.
+
+Also just realised that [this course](https://www.coursera.org/course/comparch) is essentially following the *Computer Architecture -- a Quantitative Approach*.
+OK. Two days being reviewing the book... And old memories (not only the days taking the princeton course, but also the colledge days...) came into my mind...
+
+I think I deserve an interview...
+
+BTW. I eventually applied for a router RnD position in CDNS. Back to the origin... Wish this would be my last stand...
+
+---
+
+Something saw today:
+![white flowers](/images/posts/IMG_20160506_153105605.jpg)
+
+The flowers in Xi Garden blooms. I wish I could be settled before they die.
+And they really resemble the ones I used to keep, though they are gone forever, with my premature emotion.
+
+
