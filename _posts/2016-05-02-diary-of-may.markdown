@@ -98,4 +98,25 @@ Something saw today:
 The flowers in Xi Garden blooms. I wish I could be settled before they die.
 And they really resemble the ones I used to keep, though they are gone forever, with my premature emotion.
 
+-----
+
+##### Day XXXIX, 9th, May
+
+AMD.
+
+After reviewing computer architecture for two days, which are irrelevant to today's interview, I went to AMD for an interview.
+
+It was just plain and simple technically. But the hiring manager's concern really surprised me -- he was concerned about my current unemployment status -- quitting before finding a job.
+
+He just doesnt believe that my reason for leaving is simply a feeling of lack of challenging. 
+He believes that job is only possibly challenging to NCGs, while for senior persons, they have experiences and they are *supposed* to do / be accepted to do what they already have been doing.
+And he thinks that working is simply a means of living, and has nothing to do with *interest* -- one can do more about his interests after work, and maybe apply his after-work knowledge to work sometimes if possible. But work is equal to interest? No.
+
+I had to say that I disagreed with him about all these points of view, and kept saying my reason for leave.
+
+I am not sure if this was his real thinking, or it was merely a pretending stress test.
+If it was real, I have to reconsider if I really want to report to him, though from his thorough description this position is very much to my interest. 
+(and he was the second interviewing manager I have ever encountered who deliberately and thoroughly elaborate the position. For this I appreciate his effort.)
+
+Anyway... This is merely less than half-way. I need to continue working on leetcode and CA.
 

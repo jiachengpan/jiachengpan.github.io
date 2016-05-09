@@ -77,8 +77,14 @@ From left to right, each digit of the result can be determined by chosing the $f
 #### 61. Rotate List
 Find the length, find where to disconnect, connect the first segment to the tail. (note if k >= length, we need to mod it)
 
+#### 63. Unique Paths II 
+DP. Simply set 0 to blocked grid. Note this applies to the first row and column -- one should not simply set them to 1 as in problem "Unique Paths".
+
 #### 67. Add Binary
 Simple... loop over and maintain a carry
+
+#### 69. Sqrt(x)
+Newton's method.
 
 #### 71. Simplify Path
 Just split tokens using "/", and pop when hit "..". Note when the tokens (to pop) is empty and dont forget to push the last token even if there is no trailing "/".
@@ -116,8 +122,14 @@ DP. using different number as the root, the count of BST of such configuration i
 #### 101. Symmetric Tree
 A tree is symmetric if its left subtree is mirror of its right subtree, and left-left right-right, left-right right-left, recursively judged by a helper predicate function.
 
+#### 108. Convert Sorted Array to Binary Search Tree
+DFS. Divide and conquer, half by half.
+
 #### 120. Triangle 
 DP using an array with size being the size of the last row of the triangle, following $min_paths(x) = min_path + min(x) for min_path in min_paths(x-1)$ where $min_paths()$ refers to the solution function and $min()$ refers to the minimum next-value of the two elements of the corresponding path.
+
+#### 121. Best Time to Buy and Sell Stock 
+Overkilling way: DP with 2 states as 309; simple way: maintain a `min_price` and `max_profit` (derived by `price[i]-min_price`).
 
 #### 131. Palindrome Partitioning 
 DFS / backtracking, with optional 2d array for storing substr-being-parlidrome predicate.
@@ -174,6 +186,12 @@ DP. $f(x, y) = min(f(x-1, y-1), f(x, y-1), f(x-1, y)) + 1$ if $matrix(x, y)$ els
 #### 222. Count Complete Tree Nodes
 When left-most level == right-most level, return 2^level-1, otherwise, recursively count the left subtree and right subtree.
 
+#### 229. Majority Element II
+[Boyer-Moore majority vote algorithm](https://leetcode.com/discuss/43248/boyer-moore-majority-vote-algorithm-and-my-elaboration). Two counters. $log(2n)$ -- 2 loops, first get the two candidates, then get the real count of the two candidates and see if they meet the requirement.
+
+#### 264. Ugly Number II
+DP. Maintain a vector of indices showing for each prime what the last ugly number is. Each iteration is essentially finding the minimum of the product of each prime and their "last ugly number". For each hit, increment their indices to point to the next ugly.
+
 #### 274. H-Index
 Binary search, using the indices and the descending-sorted citation count.
 
@@ -183,8 +201,17 @@ Binary search, same as 274 albeit the sorting order is ascending.
 #### 278. First Bad Version
 Binary search.
 
+#### 279. Perfect Squares
+DP. $f(n) = \min(f(n-i) + f(i))$ where $i$ is a perfect square number. Or, a [better solution](https://leetcode.com/discuss/57020/java-solution-o-n-1-2-time-and-o-1-space), and refer to [Lagrange's four-square theorem](https://en.wikipedia.org/wiki/Lagrange%27s_four-square_theorem)
+
+#### 303. Range Sum Query - Immutable 
+Prefix sum.
+
 #### 304. Range Sum Query 2D - Immutable
 Prefix sum. Or more daring: ["2d" prefix sum](https://leetcode.com/discuss/69424/clean-c-solution-and-explaination-o-mn-space-with-o-1-time)
+
+#### 309  Best Time to Buy and Sell Stock with Cooldown
+DP with state machine (3n space complexity, 3 for three states -- before buy / after cooling, after buy / before sell, after sell / before cooling). Refer to [this post](https://leetcode.com/discuss/72030/share-my-dp-solution-by-state-machine-thinking)
 
 #### 310. Minimum Height Trees
 BFS, shrinking the graph from outer frontier where nodes only has one degree, updating the degrees as the frontier nodes are removed.
@@ -193,10 +220,12 @@ BFS, shrinking the graph from outer frontier where nodes only has one degree, up
 Brainteaser... I cannot know the optimal solution unless reading [this](https://leetcode.com/discuss/91371/share-my-o-1-solution-with-explanation)
 
 #### 322. Coin Change
-DP. $f(x) = min(f(x-coin_i)+1)$ where $f()$ refer to the coin number. 
+DP. $f(x) = \min(f(x-coin_i)+1)$ where $f()$ refer to the coin number. 
 <br>*TODO: Pruning need to be done so as to reduce the runtime?*
 
 #### 332. Reconstruct Itinerary
 DFS, tracking edge count. [a better solution resembles topology sort](https://leetcode.com/discuss/85439/short-iterative-solution-explanation-recursive-backtracking)
 
+#### 347. Top K Frequent Elements
+Sort, sort by occurrence, get the first K. nlogn (using heap can be faster I think, though complexity is still nlogn).
 
