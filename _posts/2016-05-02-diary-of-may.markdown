@@ -120,3 +120,15 @@ If it was real, I have to reconsider if I really want to report to him, though f
 
 Anyway... This is merely less than half-way. I need to continue working on leetcode and CA.
 
+-----
+
+##### Day XXXX, 10th, May
+
+CA.
+
+Reviewed the chapter data-level-parallelism in vector, SIMD and GPU. Reviewing instruction-level-parallelism chapter.
+Since many of the key points were covered in the coursera course and I am somewhat familiar with CUDA, it is not quite difficult.
+
+No call received today.
+
+BTW, Korean food in FamilyMart really sucks... Too spicy!!

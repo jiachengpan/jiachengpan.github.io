@@ -155,6 +155,9 @@ Binary search. Take care of a sorted sub-partition -- you may run into the maxim
 #### 155. Min Stack
 Two stacks, one normal, one minstack.
 
+#### 162. Find Peak Element 
+Binary search. Recursively search the "increasing" part by checking the middle item trend / differential compared to its neighbours. When the middle item is a peak itself, obviously return it as well.
+
 #### 172. Factorial Trailing Zeroes
 Count how many 5s... Note that 25 has two 5s, and 125 three 5s, and so on... ($\log_5n$)
 
