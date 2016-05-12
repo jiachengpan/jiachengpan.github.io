@@ -132,3 +132,12 @@ Since many of the key points were covered in the coursera course and I am somewh
 No call received today.
 
 BTW, Korean food in FamilyMart really sucks... Too spicy!!
+
+-----
+
+##### Day XXXX, 12th, May
+
+New space...
+
+All diaries now got to [this](diary.jiacheng.space)...
+
