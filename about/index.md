@@ -20,6 +20,7 @@ I love solving problems, learning languages, and learning new ideas.
 <br><br>
 
 I am an Design Engineer in AMD, focusing on in-house EDA tool software development, involving design stitching, verificaton, and simulation code generation, as well as low-power design generation.
+
 Before joining AMD, I worked as an R&D engineer in Synopsys for ~3 years, focusing on software testing development and testing CTS-related functions in IC Compiler II.
 
 My recent interests are:
@@ -59,12 +60,14 @@ Skills
 
 Experience
 ----------
+
 June 2016 - Current
 : **[AMD](http://www.amd.com)** *ASIC Design Engineer*
+
     * Focus on software development on in-house EDA tools, for:
-        * Design stitching, verification, and simulation code generation
-        * Design grouping and ungrouping for better physical design implementation
-        * Low-power design generation, using multi-voltage, power-gating, and clock-gating techniques
+        * Design stitching, verification, and simulation code generation;
+        * Design grouping and ungrouping for better physical design implementation;
+        * Low-power design generation, using multi-voltage, power-gating, and clock-gating techniques;
 
 
 February 2013 - April 2016
