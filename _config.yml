@@ -1,66 +1,31 @@
-# Site wide configuration
+title:            to days to come
+description:      a blog for time travelling
+url:              192.168.1.12
+signoff:          jiacheng
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+github_username:  jiachengpan
+share:            false # Turn on twitter and facebook share buttons
 
-title:            Behold
-locale:           en_US
-url:
+logo: assets/images/tardis_draw.png
+bottom_logo: assets/images/scribble.png
 
+collections:
+  - notes
 
-# Jekyll configuration
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
 
-permalink:   /:categories/:title/
-markdown:    kramdown
-highlighter: rouge
-sass:
-  sass_dir: _sass
-  style: compressed
-gems:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jemoji
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: false
-
-redcarpet:
-  extensions:
-    - smart
-
-# Site owner
-owner:
-  name: Jiacheng Pan
-  avatar: fish.png
-  bio: "MOOCaholic, coder, and a day-dreamer"
-  email: jiacheng.pan.sh@gmail.com
-  disqus-shortname: jiachengpan
-  twitter: #username
-  facebook: #username
-  google:
-    plus: #username
-    analytics: UA-45976965-1
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
-  github: jiachengpan
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: jiachengpan
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: runningteeth
-  flickr: 104186517@N08
-  codepen: #username
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

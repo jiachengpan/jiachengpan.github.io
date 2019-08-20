@@ -1,9 +1,6 @@
 ---
-layout: home
-excerpt: "A site where Jiacheng Pan keeps notes."
-tags: [Jekyll, blog]
-image:
-  feature: sample-image-1.jpg
-  credit: WeGraphics
-  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: index
 ---

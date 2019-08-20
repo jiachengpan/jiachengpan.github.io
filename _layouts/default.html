@@ -1,0 +1,20 @@
+{% assign is_post = page.date %}
+<!doctype>
+<html lang="en">
+  {% include head.html %}
+  <body class="lh-copy dark-gray pa0 f6 monospace bg-super-white">
+
+    {% include header.html %}
+    
+    <div class="mw7 bg-white mt4 mb3 center br2-ns bt bb ba-ns b--light-gray">
+
+      {% include nav_bar.html %} 
+      {% if page.layout == "post" %}{% include pagination.html %}{% endif %}
+      <main class="tl f6 relative pa4 pa5-ns overflow-hidden">
+        {{ content }}
+      </main>
+
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

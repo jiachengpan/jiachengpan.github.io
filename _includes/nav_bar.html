@@ -1,0 +1,18 @@
+<nav class="bb b--light-gray pv4 tc" aria-label="Main">
+  <a class="link blue hover-mid-gray mh2 pv1"
+     href="/">
+    posts
+  </a>
+
+  {% assign pages = site.pages %}
+  {% for node in pages %}
+    {% if node.title != null %}
+      {% if node.navbar == true  %}
+	<a class="link blue hover-mid-gray mh2 pv1"
+           href="{{ node.url }}">
+          {{ node.title }}
+	</a>
+      {% endif %}
+    {% endif %}
+  {% endfor %}
+</nav>

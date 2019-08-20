@@ -1,0 +1,17 @@
+<header class="tc mt4">
+  <a href="{{ site.url }}">
+    <img class='js-random-logo' src="{{ site.url }}/{{ site.logo }}" alt="Home" height="100">
+  </a>
+  <p class="f5">
+    <a class="no-underline black dim" href="{{ site.url }}"> {{ site.title }}</a>
+  </p>
+  <script>
+    const logo = ['tardis_draw', 'cyberman', 'dalek'];
+    const randomLogo = document.querySelector('.js-random-logo');
+
+    if (randomLogo) {
+      randomLogo.src = '{{ site.url }}/assets/images/' + logo[Math.floor(Math.random() * logo.length)] + '.png';
+    }
+  </script>
+</header>
+
