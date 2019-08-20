@@ -283,7 +283,7 @@ I am not yet sure so far if I could improve it by transforming the original two 
 
 -----
 
-![quoting something to my delight](../images/posts/Screenshot_2016-04-12_19-11-07.png)
+![quoting something to my delight](/images/posts/Screenshot_2016-04-12_19-11-07.png)
 
 <br>
 When reading [Fast and Memory-Efficient Minimum Spanning Tree on the GPU](http://www.par.univie.ac.at/publications/download/TR-11-1.pdf#page=13),
@@ -316,7 +316,7 @@ BTW, it's been 9 years my father passed away, on the 12th of April. His figure s
 
 ##### Day XIII, 13th, April
 
-It's been a nice morning since I found out how to improve the performance of my MST in terms of the sorting block. (see [this](http://jiacheng.space/improving-cuda-thrust-sorting-array-of-structs/))
+It's been a nice morning since I found out how to improve the performance of my MST in terms of the sorting block. (see [this](/2016/04/13/improving-cuda-thrust-sorting-array-of-structs.html))
 
 However, I again falled into the swamp of bugs which I am still debugging now -- mistakes are made when using thrust, scattering / gathering in-place which is not supported, which makes the result **sometimes** correct and sometimes not...
 
