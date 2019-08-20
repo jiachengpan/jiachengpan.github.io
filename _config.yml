@@ -6,7 +6,8 @@ facebook_appid:   # APP ID for like button, remove from /_includes/share.html if
 github_username:  jiachengpan
 share:            false # Turn on twitter and facebook share buttons
 google_analytics: UA-45976965-3
-disqus:           jiacheng-space
+disqus:
+  shortname: jiacheng-space
 
 logo: assets/images/tardis_draw.png
 bottom_logo: assets/images/scribble.png
