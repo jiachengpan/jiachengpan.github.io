@@ -39,6 +39,7 @@ The sheets, clothes are just ordinary as today. Nothing changes much. Hair? Oh, 
 She is a good wife. Pretty. Smart. Kind. She can speak more languages than I do. I am still trying to learn new languages (not programming ones...) We both work hard and play hard. Family takes priorities in our life. We both like music, movies, etc. We go to concerts once a month or two.
 
 I am still in the semiconductor industry. I have experienced projects from architecture modeling to high performance software designing. I am proud of the chips we made, and the software stacks we built.
+In fact, I have participated in some robot projects that use the chips from our company. Really fancy bots! (four-legged with strong ... emmm everything ...)
 
 The world still is in short of computing power. Our efforts make the world a better place.
 
