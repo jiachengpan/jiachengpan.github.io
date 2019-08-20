@@ -1,11 +1,12 @@
 title:            to days to come
 description:      a blog for time travelling
-url:              192.168.1.12
+url:              jiacheng.space
 signoff:          jiacheng
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
-google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 github_username:  jiachengpan
 share:            false # Turn on twitter and facebook share buttons
+google_analytics: UA-45976965-3
+disqus:           lovelyweasel
 
 logo: assets/images/tardis_draw.png
 bottom_logo: assets/images/scribble.png
