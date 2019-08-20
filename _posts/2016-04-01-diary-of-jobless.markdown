@@ -4,7 +4,7 @@ title: Diary of April
 modified:
 categories: 
 excerpt: Diary of the jobless (wish not entire) April
-tags: [diary]
+tags: [thoughts]
 image:
   feature:
 date: 2016-04-01T10:27:52+08:00

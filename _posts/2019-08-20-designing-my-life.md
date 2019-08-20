@@ -2,6 +2,8 @@
 layout: post
 title: Designing My Life
 date: 2019-08-20 14:43 +0000
+tags:
+  - thoughts
 ---
 
 <https://tim.blog/2018/06/21/the-tim-ferriss-show-transcripts-debbie-millman/>

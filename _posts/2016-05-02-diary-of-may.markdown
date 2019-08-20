@@ -4,7 +4,7 @@ title: Diary of May
 modified:
 categories: 
 excerpt: Mailied
-tags: [diary]
+tags: [thoughts]
 image:
   feature:
 date: 2016-05-02T21:55:59+08:00

@@ -2,7 +2,7 @@
 layout: post
 title: A new beginning 
 tags:
-  - diary
+  - thoughts
 date: 2014-12-19 23:42:48 +0800
 ---
 
