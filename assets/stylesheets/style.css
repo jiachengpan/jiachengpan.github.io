@@ -61,7 +61,11 @@
 }
 
 .list-notes {
-    padding: 0;
+    padding: 0.8em 0.8em 0.8em 0.8em;
+}
+
+.note {
+    padding: 0.8em 0.8em 0.8em 0;
 }
 
 .note p {
@@ -74,23 +78,15 @@
 }
 
 .note .highlighter-rouge {
-    padding: .25rem .5rem;
-}
-
-.note > .highlighter-rouge {
-    padding: .5rem 4rem;
-    margin: .5em -4rem;
-}
-
-.note > blockquote {
-    padding: .5rem 0rem;
-    margin: .5em 0rem;
+    padding: .5rem 5.5rem;
+    margin: .5em -5.5rem;
 }
 
 .note blockquote {
     background: #fff;
     border-left: 1px solid #43564e47;
     padding-left: 1em;
+    margin: .5em 0rem;
 }
 
 .note hr {

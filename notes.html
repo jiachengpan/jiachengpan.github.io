@@ -1,16 +1,36 @@
 ---
 layout: default 
 title: notes
-navbar: false
+navbar: true
 permalink: /notes/
 ---
 
-<ul class="list-notes">
+<!--ul class="list-notes">
   {% for note in site.data.notes %}
     <li class="note" id="date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}">
       <time class="small">{{ note.date | date: "%b %d, %Y" }} {{ note.slug }}</time> <a href="#date-{{ note.date | date: "%Y-%m-%d" }}{{ note.slug }}" class="small">#</a>
-      <div class="markdown-body note">{{ note.content | markdownify }}</div>
+      <div class="">{{ note.content | markdownify }}</div>
     </li>
   {% endfor %}
+</ul-->
+
+<ul id="ext-notes" class="list-notes">
 </ul>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jscroll/2.4.1/jquery.jscroll.min.js"></script>
+<script>
+$('#ext-notes').load("//notes.jiacheng.space/_/articles?node=diary&type=simple", undefined, function() {
+console.log($('.list-notes'))
+
+  $('.list-notes').jscroll({
+    nextSelector: 'a.jscroll-next:last',
+    loadingHtml: '<span class="pv3 cb tc relative db b f6 black">loading...</span>',
+    autoTrigger: false,
+    callback: function() { },
+  });
+});
+
+</script>
+
 
