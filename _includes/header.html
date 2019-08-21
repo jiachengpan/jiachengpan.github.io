@@ -6,7 +6,7 @@
     <a class="no-underline black dim" href="{{ site.url }}"> {{ site.title }}</a>
   </p>
   <script>
-    const logo = ['tardis_draw', 'cyberman', 'dalek'];
+    const logo = Array(6).fill('tardis_draw').concat(['cyberman', 'dalek']);
     const randomLogo = document.querySelector('.js-random-logo');
 
     if (randomLogo) {
