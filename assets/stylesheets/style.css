@@ -89,6 +89,14 @@
     margin: .5em 0rem;
 }
 
+.note blockquote p:last-child {
+    margin-bottom: 0em;
+}
+
+.note blockquote p {
+    margin-bottom: 1em;
+}
+
 .note hr {
     margin: 1em -4rem;
 }
