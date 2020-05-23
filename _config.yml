@@ -5,7 +5,7 @@ signoff:          jiacheng
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 github_username:  jiachengpan
 share:            false # Turn on twitter and facebook share buttons
-google_analytics: UA-45976965-3
+google_analytics: UA-45976965-5
 disqus:
   shortname: jiachengp.me
 
