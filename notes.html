@@ -19,6 +19,7 @@ permalink: /notes/
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jscroll/2.4.1/jquery.jscroll.min.js"></script>
+<script src="{{ site.url }}/assets/thirdparty/moment.min.js"></script>
 <script>
 $('#ext-notes').load("//notes.jiachengp.me/_/articles?node=diary&type=simple", undefined, function() {
 console.log($('.list-notes'))
@@ -27,7 +28,12 @@ console.log($('.list-notes'))
     nextSelector: 'a.jscroll-next:last',
     loadingHtml: '<span class="pv3 cb tc relative db b f6 black">loading...</span>',
     autoTrigger: false,
-    callback: function() { },
+    callback: function() {
+      $("time").each(function() {
+        var d = moment(this.innerHTML + "Z");
+        this.innerHTML = d.format("YYYY-MM-DD HH:mm z");
+      });
+    },
   });
 });
 
