@@ -20,19 +20,28 @@ permalink: /notes/
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jscroll/2.4.1/jquery.jscroll.min.js"></script>
 <script src="{{ site.url }}/assets/thirdparty/moment.min.js"></script>
+<script src="{{ site.url }}/assets/thirdparty/moment-timezone-with-data.min.js"></script>
 <script>
-$('#ext-notes').load("//notes.jiachengp.me/_/articles?node=diary&type=simple", undefined, function() {
-console.log($('.list-notes'))
 
+var update_timestamp = function() {
+  $("time").each(function() {
+    if (this.touched) return;
+
+    var d = moment.tz(this.innerHTML.trim() + 'Z', 'Asia/Shanghai');
+    console.log(d);
+    this.innerHTML = d.format("MMM D YYYY HH:mm z");
+    this.touched = true;
+  });
+};
+
+$('#ext-notes').load("https://notes.jiachengp.me/_/articles?node=diary&type=simple", undefined, function() {
+  update_timestamp();
   $('.list-notes').jscroll({
     nextSelector: 'a.jscroll-next:last',
     loadingHtml: '<span class="pv3 cb tc relative db b f6 black">loading...</span>',
     autoTrigger: false,
     callback: function() {
-      $("time").each(function() {
-        var d = moment(this.innerHTML + "Z");
-        this.innerHTML = d.format("YYYY-MM-DD HH:mm z");
-      });
+      update_timestamp();
     },
   });
 });
