@@ -28,7 +28,6 @@ var update_timestamp = function() {
     if (this.touched) return;
 
     var d = moment.tz(this.innerHTML.trim() + 'Z', 'Asia/Shanghai');
-    console.log(d);
     this.innerHTML = d.format("MMM D YYYY HH:mm z");
     this.touched = true;
   });

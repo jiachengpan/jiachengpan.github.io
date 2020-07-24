@@ -47,6 +47,9 @@
   .markdown-body blockquote {
     padding-left: 0.8rem;
   }
+  main > * {
+    font-size: 95%;
+  }
 }
 
 
@@ -61,11 +64,11 @@
 }
 
 .list-notes {
-    padding: 0.8em 0.8em 0.8em 0.8em;
+    padding: 0.8em 0 0.8em 0.8em;
 }
 
 .note {
-    padding: 0.8em 0.8em 0.8em 0;
+    padding: 0.8em 0 0.8em 0;
 }
 
 .note p {
