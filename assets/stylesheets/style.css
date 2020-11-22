@@ -67,11 +67,14 @@
     padding: 0.8em 0 0.8em 0.8em;
 }
 
-.note {
-    padding: 0.8em 0 0.8em 0;
+li.note {
     border-color: #eee;
     border-bottom-style: solid;
     border-bottom-width: 1px;
+}
+
+.note {
+    padding: 0.8em 0 0.8em 0;
 }
 
 .note p {
